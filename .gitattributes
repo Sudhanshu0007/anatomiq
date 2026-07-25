@@ -1,0 +1,13 @@
+# Normalize text files for consistent behavior across operating systems.
+* text=auto eol=lf
+
+# Preserve binary assets exactly as stored.
+*.glb binary
+*.gltf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.mp3 binary
+*.wav binary
+*.hdr binary
